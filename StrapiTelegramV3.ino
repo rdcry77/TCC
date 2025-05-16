@@ -3,14 +3,14 @@
 #include <WiFiClientSecure.h>
 
 //Configurações d Wi-Fi
-const char* ssid = "CLNG";
-const char* password = "16012701";
+const char* ssid = "CLNG"; //Nome da rede Wi-fi
+const char* password = "16012727"; //Senha da rede Wi-fi
 
 const char* serverName = "http://192.168.1.3:1337/api/river-statuses"; // URL do Strapi
 
 // Configurações bot do Telegram
-const char* telegramToken = "7557990284:AAELyLYiIUsAHldkeCg2poput3FYPX7vmF0"; //TokenBot
-const char* telegramChatID = "5295976834"; //MyID
+const char* telegramToken = " "; //Token do Bot do telegram
+const char* telegramChatID = " "; //Meu ID
 
 // Simulação do rio
 char RiverStatus[15] = "Empty"; //Estado inicial
@@ -50,7 +50,7 @@ void addHalfHour() {
   Serial.println(RiverDate);
 }
 // Definição dos estados
-float generateValueForState(const char* state) {
+float generateValueForState(const char* state) { //variação da altura
   if (strcmp(state, "Empty") == 0) 
     return random(10, 150) / 100.0;  //  0.1m - 1.5m
   else if (strcmp(state, "Moderate") == 0) 
@@ -96,8 +96,8 @@ void loop() {
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
     http.begin(serverName);
-    http.addHeader("Content-Type", "application/json"); //API Token
-    http.addHeader("Authorization", "Bearer 248d4001bc40f7be6543b1b008f17b216b9b33f7843847310e791e06262b2bd32753c69fbf21187f10ed620cc0f8391bd4fc3d24a3aa26b6e7410722928ab9d4bccbe7320091cb358e59d4733365a7640e3882fe65016ca807816df111eefa0b7a93bb3fbef0f4f91298913df9dd8c1496beb63c92495f57bb0a890c9e84ebde");
+    http.addHeader("Content-Type", "application/json"); 
+    http.addHeader("Authorization", "Bearer  "); //Strapi API Token
 
     // Garante que o valor do rio está correto
     RiverValue = generateValueForState(RiverStatus);

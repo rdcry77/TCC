@@ -28,4 +28,11 @@ Este repositório contém o código para a simulação de monitoramento de cheia
   - **Do que se trata?** O Strapi é Sistema de Gerenciamento de Conteúdo de código aberto com uma interface de administração que cria e gerencia conteúdos como sites e aplicativos.
   - **Tem como pré-requisito a instalação do do Node.JS LTS**
     - Acesse [Node.js official website](https://nodejs.org/).
-      
+  - **Para fazer sua instalação basta apenas seguir o site oficial**
+    - Acesse [Strapi official website](https://strapi.io/) 
+
+  ## Como Rodar o Projeto
+  - **Painel do Strapi**
+    - Abra o Powershell ou terminal(prompt de comando) e execute o comando:
+
+      cd /caminho/para/a/pasta/do/projeto

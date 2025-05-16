@@ -35,4 +35,8 @@ Este repositório contém o código para a simulação de monitoramento de cheia
   - **Painel do Strapi**
     - Abra o Powershell ou terminal(prompt de comando) e execute o comando:
 
-      cd /caminho/para/a/pasta/do/projeto
+      **cd /nome_da_pasta_do_projeto**
+      **npm run develop**
+
+    - Agora basta apenas colar o link gerado no navegador
+    - Selecione a opção de **Content-Type-Builder**

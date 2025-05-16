@@ -17,3 +17,7 @@ Este repositório contém o código para a simulação de monitoramento de cheia
     - Acesse [Arduino official website](https://www.arduino.cc/en/software/).
     - Faça o Download referente ao sistema operacional da máquina (Windows, Linux ou MacOS).
 
+### 2. **Instalando o ESP-32 no Arduino IDE**
+    - Abra o IDE
+    - Vá em Files - Preferences
+    - Insira a seguinte URL no campo abaixo: (https://raw.githubusercontent.com/espressif/arduino-esp32/gh-pages/package_esp32_index.json)

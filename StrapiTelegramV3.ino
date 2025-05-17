@@ -6,11 +6,11 @@
 const char* ssid = "CLNG"; //Nome da rede Wi-fi
 const char* password = "16012727"; //Senha da rede Wi-fi
 
-const char* serverName = "http://192.168.1.3:1337/api/river-statuses"; // URL do Strapi
+const char* serverName = "http://192.168.1.3:1337/api/river-statuses";//URL do Strapi no padrão http:// Seu_endereço_IPv4:1337 /api/ nome_do_content-type.
 
 // Configurações bot do Telegram
-const char* telegramToken = " "; //Token do Bot do telegram
-const char* telegramChatID = " "; //Meu ID
+const char* telegramToken = " xxxxxxxxx "; //Token do Bot do telegram
+const char* telegramChatID = " xxxxxxxx "; //Meu ID do telegram
 
 // Simulação do rio
 char RiverStatus[15] = "Empty"; //Estado inicial
@@ -97,7 +97,7 @@ void loop() {
     HTTPClient http;
     http.begin(serverName);
     http.addHeader("Content-Type", "application/json"); 
-    http.addHeader("Authorization", "Bearer  "); //Strapi API Token
+    http.addHeader("Authorization", "Bearer  "); //Strapi API Token no padrão "Bearer token_do_strapi"
 
     // Garante que o valor do rio está correto
     RiverValue = generateValueForState(RiverStatus);

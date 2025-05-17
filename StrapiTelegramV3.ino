@@ -97,7 +97,7 @@ void loop() {
     HTTPClient http;
     http.begin(serverName);
     http.addHeader("Content-Type", "application/json"); 
-    http.addHeader("Authorization", "Bearer  "); //Strapi API Token no padrão "Bearer token_do_strapi"
+    http.addHeader("Authorization", "Bearer  xxxxxxxxxxxxxxxx"); //Strapi API Token no padrão "Bearer token_do_strapi"
 
     // Garante que o valor do rio está correto
     RiverValue = generateValueForState(RiverStatus);

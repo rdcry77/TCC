@@ -12,7 +12,7 @@ Este repositório contém o código para a simulação de monitoramento de cheia
 É necessária a instalação de algumas ferramentas para que o projeto rode e a simulação seja feita com êxito.
 
 ### 1. **Arduino IDE**
-  - **Do que se trata?** O arduino IDE é um software de código aberto utilizado para escrever, compilar e enviar código para microcontroladores. Facilitando-se sua programação.
+  - **Funcionalidade?** O arduino IDE é um software de código aberto utilizado para escrever, compilar e enviar código para microcontroladores. Facilitando-se sua programação.
   - **Como é feita a sua instalação?**
     - Acesse [Arduino official website](https://www.arduino.cc/en/software/).
     - Faça o Download referente ao sistema operacional da máquina (Windows, Linux ou MacOS).
@@ -25,18 +25,39 @@ Este repositório contém o código para a simulação de monitoramento de cheia
     - Abra a opção de Board Manager, pesquise por "ESP32 Espressif" e faça sua instalação.
 
 ### 3. **Strapi API**
-  - **Do que se trata?** O Strapi é Sistema de Gerenciamento de Conteúdo de código aberto com uma interface de administração que cria e gerencia conteúdos como sites e aplicativos.
+  - **Funcionalidade?** O Strapi é Sistema de Gerenciamento de Conteúdo de código aberto com uma interface de administração que cria e gerencia conteúdos como sites e aplicativos.
   - **Tem como pré-requisito a instalação do do Node.JS LTS**
     - Acesse [Node.js official website](https://nodejs.org/).
   - **Para fazer sua instalação basta apenas seguir o site oficial**
     - Acesse [Strapi official website](https://strapi.io/) 
+
+### 4. **Telegram**
+  - **Funcionalidade?** O Telegram é um serviço de mensagens instantâneas baseado na nuvem e vai ser responsável pelo nosso alerta de perigo.
+  - Abra o Telegram e procure por "**BotFather**".
+  - Digite o seguinte comando: **/newbot**.
+  - Nomeie o seu bot e armazene o Token do Telegram.
+  - Pesquise por "**IDBot**".
+  - Digite o seguinte comando: **/start** e armazene o ID de Usuário.
 
   ## Como Rodar o Projeto
   - **Painel do Strapi**
     - Abra o Powershell ou terminal(prompt de comando) e execute o comando:
 
       **cd /nome_da_pasta_do_projeto**
+      
       **npm run develop**
 
-    - Agora basta apenas colar o link gerado no navegador
-    - Selecione a opção de **Content-Type-Builder**
+    - Agora basta apenas colar o link gerado no navegador.
+    - Selecione a opção "**Content-Type-Builder**".
+    - Crie uma nova Coleção.
+    - Gere variáveis dos tipos Date/Time, Number e Enumeration.
+      **Especificações**
+        - Date/Time em formato: (01/11/2011 01:11 AM).
+        - Number em formato: (Decimal).
+        - Enumeration com os estados (Empty, Moderate, Full, Overflowing).
+    - Vá em Configurações - Roles.
+    - Modifique o conteúdo da Permissão "Public" (Ícone do lápis).
+    - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
+    - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
+    - Salve as mudanças.
+

@@ -77,7 +77,7 @@ Este repositório contém o código para a simulação de monitoramento de cheia
 
   3. **Telegram**
     - Procure pelo nome do bot criado.
-    - Inicie-o com **(/start)**.
+        - Inicie-o com **(/start)**.
 
        
   4. **Arduino IDE**
@@ -98,7 +98,7 @@ Este repositório contém o código para a simulação de monitoramento de cheia
       - Pode ser acompanhada pelo Monitor Serial do IDE (Ctrl + Shift + M)
       - Pode ser acompanhada pelo Painel do Strapi (Content Manager)
       - Quando o estado de "**Overflowing**" for atingido, a notificação será enviada pelo Telegram
-        - **Extra**
+        - **Extra:**
           - Caso deseje parar a simulação, basta apenas digitar **(/stop)**.
           - Lembre-se de não fechar o PowerShell/Cmd onde foi aberto o Strapi.
        

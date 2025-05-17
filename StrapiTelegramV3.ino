@@ -6,7 +6,7 @@
 const char* ssid = "CLNG"; //Nome da rede Wi-fi
 const char* password = "16012727"; //Senha da rede Wi-fi
 
-const char* serverName = "http://192.168.1.3:1337/api/river-statuses";//URL do Strapi no padrão http:// Seu_endereço_IPv4:1337 /api/ nome_do_content-type.
+const char* serverName = "http://xxxxxx:1337/api/xxxxxx";//URL do Strapi no padrão http:// Seu_endereço_IPv4:1337 /api/ nome_do_content-type.
 
 // Configurações bot do Telegram
 const char* telegramToken = " xxxxxxxxx "; //Token do Bot do telegram

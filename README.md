@@ -95,12 +95,12 @@ Este repositório contém o código para a simulação de monitoramento de cheia
 
 
   **A simulação será iniciada**
-    - Pode ser acompanhada pelo Monitor Serial do IDE (Ctrl + Shift + M)
-    - Pode ser acompanhada pelo Painel do Strapi (Content Manager)
-    - Quando o estado de "**Overflowing**" for atingido, a notificação será enviada pelo Telegram
-      **Extra**
-        - Caso deseje parar a simulação, basta apenas digitar **(/stop)**.
-        - Lembre-se de não fechar o PowerShell/Cmd onde foi aberto o Strapi.
+      - Pode ser acompanhada pelo Monitor Serial do IDE (Ctrl + Shift + M)
+      - Pode ser acompanhada pelo Painel do Strapi (Content Manager)
+      - Quando o estado de "**Overflowing**" for atingido, a notificação será enviada pelo Telegram
+        **Extra**
+          - Caso deseje parar a simulação, basta apenas digitar **(/stop)**.
+          - Lembre-se de não fechar o PowerShell/Cmd onde foi aberto o Strapi.
        
   
    

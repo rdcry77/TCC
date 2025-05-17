@@ -49,8 +49,8 @@ Este repositório contém o código para a simulação de monitoramento de cheia
 
   1. **Baixar Código pelo GitHub**
     - Faça o download do código em formato ZIP pelo GitHub: 
-    [Sistema De Monitoramento e Alerta de Aumento Fluvial e Cheias de Rios.](https://github.com/rdcry77/TCC) 
-    - Clique no botão "Code" e selecione "Download ZIP"
+    [Sistema De Monitoramento e Alerta de Aumento Fluvial e Cheias de Rios.](https://github.com/rdcry77/TCC). 
+        - Clique no botão "Code" e selecione "Download ZIP"
 
       
   2. **Painel do Strapi**
@@ -89,8 +89,8 @@ Este repositório contém o código para a simulação de monitoramento de cheia
             - Em caso de dúvidas, basta apenas acessar o cmd e digitar "**ipconfig**".
         - Configurações do Bot Telegram (Token/ChatID).
         - Token de autorização da API do Strapi.
-    - Plug o ESP-32 à máquina pelo cabo USB.
-    - Faça o upload do código para o micro-controlador.
+      - Plug o ESP-32 à máquina pelo cabo USB.
+      - Faça o upload do código para o micro-controlador.
 
 
 

@@ -42,10 +42,11 @@ Este repositório contém o código para a simulação de monitoramento de cheia
   ## Como Rodar o Projeto
 
   1 **Baixar Código pelo GitHub**
-    - Faça o download do código em formato ZIP pelo GitHub: [TCC](https://github.com/rdcry77/TCC) 
+    - Faça o download do código em formato ZIP pelo GitHub: 
+    [Sistema De Monitoramento e Alerta de Aumento Fluvial e Cheias de Rios.](https://github.com/rdcry77/TCC) 
     - Clique no botão "Code" e selecione "Download ZIP"
 
-  
+      
   2. **Painel do Strapi**
     - Abra o Powershell ou terminal(prompt de comando) e execute o comando:
 
@@ -66,6 +67,31 @@ Este repositório contém o código para a simulação de monitoramento de cheia
         - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
         - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
         - Salve as mudanças.
+
+
+  3. **Telegram**
+    - Procure pelo nome do bot criado.
+    - Inicie-o com **(/start)**.
+       
+  4. **Arduino IDE**
+    - Abra o arquivo .ino do ZIP baixado pelo Arduino IDE.
+    - Altere o código de forma adequada.
+      **Dados importantes**
+        - Configurações da rede Wi-Fi.
+        - URL do Strapi de acordo com o endereço IPv4 e nome do projeto Strapi.
+            - Em caso de dúvidas, basta apenas acessar o cmd e digitar "**ipconfig**".
+        - Configurações do Bot Telegram (Token/ChatID).
+        - Token de autorização da API do Strapi.   
+    - Plug o ESP-32 à máquina pelo cabo USB.
+    - Faça o upload do código para o micro-controlador.
+
+  **A simulação será iniciada**
+    - Pode ser acompanhada pelo Monitor Serial do IDE (Ctrl + Shift + M)
+    - Pode ser acompanhada pelo Painel do Strapi (Content Manager)
+    - Quando o estado de "**Overflowing**" for atingido, a notificação será enviada pelo Telegram
+      **Extra**
+        - Caso deseje parar a simulação, basta apenas digitar **(/stop)**.
+        - Lembre-se de não fechar o PowerShell/Cmd onde foi aberto o Strapi.
        
   
    

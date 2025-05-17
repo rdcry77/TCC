@@ -34,10 +34,10 @@ Este repositório contém o código para a simulação de monitoramento de cheia
 ### 4. **Telegram**
   - **Funcionalidade?** O Telegram é um serviço de mensagens instantâneas baseado na nuvem e vai ser responsável pelo nosso alerta de perigo.
   - Abra o Telegram e procure por "**BotFather**".
-  - Digite o seguinte comando: **/newbot**.
+  - Digite o seguinte comando: **(/newbot)**.
   - Nomeie o seu bot e armazene o Token do Telegram.
   - Pesquise por "**IDBot**".
-  - Digite o seguinte comando: **/start** e armazene o ID de Usuário.
+  - Digite o seguinte comando: **(/start)** e armazene o ID de Usuário.
 
   ## Como Rodar o Projeto
   - **Painel do Strapi**
@@ -56,8 +56,8 @@ Este repositório contém o código para a simulação de monitoramento de cheia
         - Number em formato: (Decimal).
         - Enumeration com os estados (Empty, Moderate, Full, Overflowing).
     - Vá em Configurações - Roles.
-    - Modifique o conteúdo da Permissão "Public" (Ícone do lápis).
-    - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
-    - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
-    - Salve as mudanças.
+      - Modifique o conteúdo da Permissão "Public" (Ícone do lápis).
+      - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
+      - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
+      - Salve as mudanças.
 

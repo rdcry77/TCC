@@ -60,4 +60,7 @@ Este repositório contém o código para a simulação de monitoramento de cheia
       - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
       - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
       - Salve as mudanças.
-
+       
+  - **Baixar código pelo GitHub**
+    - Faça o download do código em formato ZIP pelo GitHub: [TCC](https://github.com/rdcry77/TCC) 
+    - Clique no botão "Code" e selecione "Download ZIP"

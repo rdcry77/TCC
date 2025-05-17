@@ -40,27 +40,37 @@ Este repositório contém o código para a simulação de monitoramento de cheia
   - Digite o seguinte comando: **(/start)** e armazene o ID de Usuário.
 
   ## Como Rodar o Projeto
-  - **Painel do Strapi**
+
+  1 **Baixar Código pelo GitHub**
+    - Faça o download do código em formato ZIP pelo GitHub: [TCC](https://github.com/rdcry77/TCC) 
+    - Clique no botão "Code" e selecione "Download ZIP"
+
+  
+  2. **Painel do Strapi**
     - Abra o Powershell ou terminal(prompt de comando) e execute o comando:
 
       **cd /nome_da_pasta_do_projeto**
       
       **npm run develop**
-
-    - Agora basta apenas colar o link gerado no navegador.
-    - Selecione a opção "**Content-Type-Builder**".
-    - Crie uma nova Coleção.
-    - Gere variáveis dos tipos Date/Time, Number e Enumeration.
-      **Especificações**
-        - Date/Time em formato: (01/11/2011 01:11 AM).
-        - Number em formato: (Decimal).
-        - Enumeration com os estados (Empty, Moderate, Full, Overflowing).
-    - Vá em Configurações - Roles.
-      - Modifique o conteúdo da Permissão "Public" (Ícone do lápis).
-      - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
-      - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
-      - Salve as mudanças.
+  
+      - Agora basta apenas colar o link gerado no navegador.
+      - Selecione a opção "**Content-Type-Builder**".
+      - Crie uma nova Coleção.
+      - Gere variáveis dos tipos Date/Time, Number e Enumeration.
+        **Especificações**
+          - Date/Time em formato: (01/11/2011 01:11 AM).
+          - Number em formato: (Decimal).
+          - Enumeration com os estados (Empty, Moderate, Full, Overflowing).
+      - Vá em Configurações - Roles.
+        - Modifique o conteúdo da Permissão "Public" (Ícone do lápis).
+        - Conceda todas as permissões para o Content-Type-Builder criado (Select all).
+        - Crie uma Token de API com duração indeterminada (Unlimited) e acesso completo (Full Access).
+        - Salve as mudanças.
        
-  - **Baixar código pelo GitHub**
-    - Faça o download do código em formato ZIP pelo GitHub: [TCC](https://github.com/rdcry77/TCC) 
-    - Clique no botão "Code" e selecione "Download ZIP"
+  
+   
+  
+      
+
+
+  

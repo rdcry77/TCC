@@ -104,7 +104,7 @@ void loop() {
 
     // Envia mensagem pelo Telegram quando o estado chega no Overflowing
     if (strcmp(RiverStatus, "Overflowing") == 0) {
-      sendTelegramMessage("⚠️ ALERTA: O RIO ESTÁ TRANSBORDANDO!"); //mensagem enviada
+      sendTelegramMessage("⚠️ RIO TRANSBORDANDO!"); //mensagem enviada
     }
 
     char postData[256];
